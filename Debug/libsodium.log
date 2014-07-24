@@ -1,0 +1,153 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  version.c
+  utils.c
+  core.c
+  compat.c
+  randombytes_sysrandom.c
+c:\users\pouddev\source\nacl_library\latest\libsodium-0.4.5\src\libsodium\randombytes\sysrandom\randombytes_sysrandom.c(189): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  randombytes_salsa20_random.c
+c:\users\pouddev\source\nacl_library\latest\libsodium-0.4.5\src\libsodium\randombytes\salsa20\randombytes_salsa20_random.c(294): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  randombytes.c
+  verify_32_api.c
+  verify_32.c
+  verify_16_api.c
+  verify_16.c
+  stream_xsalsa20_api.c
+  xor_xsalsa20.c
+  stream_xsalsa20.c
+  stream_salsa20_api.c
+  xor_salsa20_ref.c
+  stream_salsa20_ref.c
+  stream_salsa208_api.c
+  xor_salsa208.c
+  stream_salsa208.c
+  Generating Code...
+  Compiling...
+  stream_salsa2012_api.c
+  xor_salsa2012.c
+  stream_salsa2012.c
+  crypto_stream.c
+  stream_aes256estream_api.c
+  aes256-ctr.c
+  stream_aes128ctr_api.c
+  xor_afternm_aes128ctr.c
+  stream_aes128ctr.c
+  int128_aes128ctr.c
+  consts_aes128ctr.c
+  common_aes128ctr.c
+  beforenm_aes128ctr.c
+  afternm_aes128ctr.c
+  sign_edwards25519sha512batch_api.c
+  sign_edwards25519sha512batch.c
+  sc25519_edwards25519sha512batch.c
+  ge25519_edwards25519sha512batch.c
+  fe25519_edwards25519sha512batch.c
+  sign_ed25519_api.c
+  Generating Code...
+  Compiling...
+  sign.c
+  sc_reduce.c
+  sc_muladd.c
+  open.c
+  keypair.c
+  ge_tobytes.c
+  ge_sub.c
+  ge_scalarmult_base.c
+  ge_precomp_0.c
+  ge_p3_to_p2.c
+  ge_p3_to_cached.c
+  ge_p3_tobytes.c
+  ge_p3_dbl.c
+  ge_p3_0.c
+  ge_p2_dbl.c
+  ge_p2_0.c
+  ge_p1p1_to_p3.c
+  ge_p1p1_to_p2.c
+  ge_msub.c
+  ge_madd.c
+  Generating Code...
+  Compiling...
+  ge_frombytes.c
+  ge_double_scalarmult.c
+  ge_add.c
+  fe_tobytes.c
+  fe_sub.c
+  fe_sq2.c
+  fe_sq.c
+  fe_pow22523.c
+  fe_neg.c
+  fe_mul.c
+  fe_isnonzero.c
+  fe_isnegative.c
+  fe_invert.c
+  fe_frombytes.c
+  fe_copy.c
+  fe_cmov.c
+c:\users\pouddev\source\nacl_library\latest\libsodium-0.4.5\src\libsodium\crypto_sign\ed25519\ref10\fe_cmov.c(42): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  fe_add.c
+  fe_1.c
+  fe_0.c
+  crypto_sign.c
+  Generating Code...
+  Compiling...
+  shorthash_siphash24_api.c
+  shorthash_siphash24.c
+  crypto_shorthash.c
+  secretbox_xsalsa20poly1305_api.c
+  box_xsalsa20poly1305.c
+  crypto_secretbox.c
+  scalarmult_curve25519_api.c
+  smult_curve25519_ref.c
+c:\users\pouddev\source\nacl_library\latest\libsodium-0.4.5\src\libsodium\crypto_scalarmult\curve25519\ref\smult_curve25519_ref.c(59): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  base_curve25519_ref.c
+  crypto_scalarmult.c
+  onetimeauth_poly1305_try.c
+  onetimeauth_poly1305_api.c
+  onetimeauth_poly1305.c
+  verify_poly1305_donna.c
+  auth_poly1305_donna.c
+  crypto_onetimeauth.c
+  hash_sha512.c
+  hash_sha512_api.c
+  hash_sha256.c
+  hash_sha256_api.c
+  Generating Code...
+  Compiling...
+  crypto_hash.c
+  blocks_sha512.c
+  hashblocks_sha512_api.c
+  blocks_sha256.c
+  hashblocks_sha256_api.c
+  crypto_generichash.c
+  generichash_blake2b.c
+  blake2b-ref.c
+  generichash_blake2_api.c
+  core_salsa20.c
+  core_salsa20_api.c
+  core_salsa208.c
+  core_salsa208_api.c
+  core_salsa2012.c
+  core_salsa2012_api.c
+  core_hsalsa20.c
+  core_hsalsa20_api.c
+  keypair_curve25519xsalsa20poly1305.c
+  box_curve25519xsalsa20poly1305.c
+  before_curve25519xsalsa20poly1305.c
+  Generating Code...
+  Compiling...
+  after_curve25519xsalsa20poly1305.c
+  box_curve25519xsalsa20poly1305_api.c
+  crypto_box.c
+  verify_hmacsha512256.c
+  hmac_hmacsha512256.c
+  auth_hmacsha512256_api.c
+  verify_hmacsha256.c
+  hmac_hmacsha256.c
+  auth_hmacsha256_api.c
+  crypto_auth.c
+  Generating Code...
+     Creating library ..\..\..\..\Source\NaclEncryption\Debug\libsodium.lib and object ..\..\..\..\Source\NaclEncryption\Debug\libsodium.exp
+  libsodium.vcxproj -> C:\Users\pouddev\Source\NACL_Library\LATEST\libsodium-0.4.5\..\..\..\..\Source\NaclEncryption\Debug\libsodium.dll
+  Running the test suite:
+  auth.c compile failed
